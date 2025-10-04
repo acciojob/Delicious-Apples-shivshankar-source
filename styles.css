@@ -1,1 +1,87 @@
-/* your code here */
+body{
+    background-color: #10E37F;
+}
+
+.product__photo{
+    /* margin:100px; */
+    background-color: white;
+    position: relative;
+    top:40px;
+    width:350px;
+    height:500px;
+    /* border:3px solid red; */
+    left:-80px;
+    box-shadow: 1px 20px 10px rgba(48, 47, 47, 0.322);
+}
+.photo-container{
+width:100%;
+/* border:2px solid black; */
+}
+.photo-main{
+    /* margin: 60px; */
+    width:auto;
+    height:auto;
+    padding:20px;
+    background-color: #B5E940;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.controls >i{
+    color:white
+}
+.photo-album>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:20px;
+    list-style: none;
+    
+}
+.photo-album>ul>li{
+     border: 2px solid rgb(239, 233, 233);
+     border-radius: 8px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+    background-color: white;
+    width:700px;
+    height:560px;
+    position: relative;
+    top: 40px;
+    margin-left:20%;
+}
+.variant>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:20px;
+    list-style: none;
+    border: 2px solid black;
+}
+.product__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:20px;
+}
+.price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    font-size: 32px;
+}
+.title>span{
+    color:grey;
+}
+.variant>h3{
+    color:grey;
+}
+.photo-main>img{
+    position: relative;
+    left:-80px;
+}
